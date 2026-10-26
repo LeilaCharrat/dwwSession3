@@ -1,0 +1,22 @@
+.card{
+    background-color: white;
+    width:309px;
+    padding: 16px;
+}
+
+.section{
+    width:100%;
+    background-color:grey;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 20px;
+}
+
+button{
+    background-color:#1398A0;
+    color:white;
+    border:none;
+    border-radius:8px;
+    padding:8px 16px;
+}
