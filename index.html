@@ -7,19 +7,29 @@
 
  <!--this loads the style.css file-->
  <link href="style1.css" rel="stylesheet">
+
+    <!--we load the page script-->
+    <script src="script.js"defer></script>
 </head>
 <body> 
 
-    <!--the title-->
-<div class="section">
-    <div class=" card">
-            <img
-            src="voyage.jpg"
-            alt="">
-        <h2>Card title</h2>
-        <p>sint ex cillum aliquip ut reprehenderit cillum excepteur culpa do irure dolor Lorem laborum dolor</p>
-        <button>Visit this place</button>
-    </div>
-   </div>
-</body>    
+    <h1>Hello <span id="target">Thomas</span>!</h1>
+
+    <input type="text" id="input-name">
+    <button id="button-name">submit your name</button>
     
+    <!--a user can change color of the title-->
+    <input type="color" id="input-color">
+    <button id="button-color">submit your color</button>
+
+    <div id="toDoList">
+      <input type="text" id="toDoInput">
+      <button id="toDoButton">add something to the list</button>
+      <ul id="toDo">
+        <!--we had li from javascript-->
+      </ul>
+    </div>
+
+
+</body>
+</html>
